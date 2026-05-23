@@ -230,11 +230,7 @@ This significantly improved answer reliability and reduced hallucinations.
 
 ## 🎥 Demo Video
 
-Demo Video Link:
-
-[Watch Demo Video]("C:\Users\CSC\Desktop\Project Recording.mp4")
-
----
+[▶ Watch Demo Video](https://drive.google.com/file/d/1_HgOAPc_oUs_1wWRitCW__gSTQAhqYwO/view?usp=sharing)
 
 ## 🔐 Environment Variables
 
