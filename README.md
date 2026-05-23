@@ -232,7 +232,7 @@ This significantly improved answer reliability and reduced hallucinations.
 
 Demo Video Link:
 
-[Watch Demo Video](https://your-demo-video-link)
+[Watch Demo Video]("C:\Users\CSC\Desktop\Project Recording.mp4")
 
 ---
 
