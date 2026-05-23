@@ -218,27 +218,15 @@ This significantly improved answer reliability and reduced hallucinations.
 
 ### Main Interface
 
-Add Screenshot Here
-
-```
-assets/screenshot-1.png
-```
+![Main Interface](assets/screenshot-1.png)
 
 ### PDF Upload & Chat
 
-Add Screenshot Here
-
-```
-assets/screenshot-2.png
-```
+![PDF Upload & Chat](assets/screenshot-2.png)
 
 ### ChromaDB Inspector
 
-Add Screenshot Here
-
-```
-assets/screenshot-3.png
-```
+![ChromaDB Inspector](assets/screenshot-3.png)
 
 ---
 
@@ -246,19 +234,16 @@ assets/screenshot-3.png
 
 Demo Video Link:
 
-```
-https://your-demo-video-link
-```
+[Watch Demo Video](https://your-demo-video-link)
 
 ---
 
 ## 🔐 Environment Variables
 
-Create a .env file in the project root:
+Create a `.env` file in the project root:
 
 ```env
 GROQ_API_KEY=your_groq_api_key
-
 OPENROUTER_API_KEY=your_openrouter_api_key
 ```
 
@@ -269,29 +254,29 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/rag-pdfbot.git
+git clone https://github.com/Aashritha-MB/RAG-pdfbot.git
 
-cd rag-pdfbot
+cd RAG-pdfbot
 ```
 
 Create a virtual environment:
 
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 
 Activate virtual environment:
 
-Windows
+### Windows
 
 ```bash
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
-Linux / Mac
+### Linux / macOS
 
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 Install dependencies:
@@ -306,6 +291,12 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run app.py
+```
+
+Open your browser and navigate to:
+
+```text
+http://localhost:8501
 ```
 
 ---
@@ -325,25 +316,14 @@ This helps during debugging and retrieval optimization.
 
 ## 📊 Future Improvements
 
-* Source citations with page numbers
-* Hybrid search (Vector + BM25)
-* Cross-encoder reranking
-* DOCX and PPT support
-* Conversation memory
-* Multi-user authentication
-* Cloud deployment support
-
----
-
-## 🙏 Acknowledgements
-
-* LangChain
-* Streamlit
-* ChromaDB
-* HuggingFace
-* OpenRouter
-* Groq
-* PyPDF
+* Source citations with page references
+* Hybrid Search (BM25 + Vector Search)
+* Cross-Encoder Re-ranking
+* DOCX and PPT document support
+* Conversational memory
+* User authentication and access control
+* Cloud deployment (AWS/Azure/GCP)
+* Streaming responses from LLMs
 
 ---
 
