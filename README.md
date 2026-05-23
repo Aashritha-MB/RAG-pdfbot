@@ -228,8 +228,6 @@ This significantly improved answer reliability and reduced hallucinations.
 
 ![ChromaDB Inspector](assets/screenshot-3.png)
 
----
-
 ## 🎥 Demo Video
 
 Demo Video Link:
